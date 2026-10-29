@@ -1,0 +1,33 @@
+/* Estilizações Adicionais Personalizadas */
+
+/* Personalização do Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Animações suaves de interação */
+input[type="range"]::-webkit-slider-thumb {
+  transition: transform 0.1s ease-in-out;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+canvas {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
